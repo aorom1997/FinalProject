@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="button">Button</string>
+    <string name="image">TODO</string>
+    <string name="sign">TODO</string>
+    <string name="enter_the_tower">Enter the tower!</string>
+    <string name="speed_mode">Speed mode</string>
+    <string name="settings">Settings</string>
+</resources>
