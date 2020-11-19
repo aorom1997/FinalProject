@@ -51,7 +51,7 @@
         android:layout_height="39dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="280dp"
-        android:text="Volume"
+        android:text="@string/volume"
         android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

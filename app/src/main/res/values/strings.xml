@@ -6,4 +6,17 @@
     <string name="enter_the_tower">Enter the tower!</string>
     <string name="speed_mode">Speed mode</string>
     <string name="settings">Settings</string>
+    <string name="volume">Volume</string>
+    <string name="tower_of_addition">Tower of Addition</string>
+    <string name="tower_of_subtraction">Tower of Subtraction</string>
+    <string name="tower_of_multiplication">Tower of Multiplication</string>
+    <string name="tower_of_math">Tower of Math</string>
+    <string name="tower_of_division">Tower of Division</string>
+    <string name="board">board</string>
+    <string name="game">Game</string>
+    <string name="answer1">Answer1</string>
+    <string name="answer3">Answer3</string>
+    <string name="sample_question">Sample Question</string>
+    <string name="answer2">Answer2</string>
+    <string name="testtemplate">TestTemplate</string>
 </resources>

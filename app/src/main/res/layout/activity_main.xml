@@ -10,13 +10,13 @@
         android:id="@+id/imageView3"
         android:layout_width="1346dp"
         android:layout_height="1177dp"
+        android:contentDescription="@string/image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/image0__2_"
-        android:contentDescription="@string/image" />
+        app:srcCompat="@drawable/image0__2_" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -63,5 +63,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.781"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/testtemplate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
