@@ -22,7 +22,7 @@
         android:id="@+id/sign2"
         android:layout_width="404dp"
         android:layout_height="622dp"
-        android:layout_marginBottom="152dp"
+        android:layout_marginBottom="80dp"
         android:contentDescription="@string/board"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         android:id="@+id/switch1"
         android:layout_width="113dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="244dp"
+        android:layout_marginBottom="140dp"
         android:text="@string/answer1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
         android:id="@+id/switch2"
         android:layout_width="113dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="244dp"
+        android:layout_marginBottom="140dp"
         android:text="@string/answer2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
         android:id="@+id/switch3"
         android:layout_width="113dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="244dp"
+        android:layout_marginBottom="140dp"
         android:text="@string/answer3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +76,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225" />
+        app:layout_constraintVertical_bias="0.343" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

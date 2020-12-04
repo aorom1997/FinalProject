@@ -34,6 +34,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent);
         }
 
+        val buttonTemplate2= findViewById<Button>(R.id.Test2)
+        buttonTemplate2.setOnClickListener {
+            val intent = Intent( this , Template2::class.java)
+            startActivity(intent);
+        }
+
 
     }
 }

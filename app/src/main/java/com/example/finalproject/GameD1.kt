@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
-class Settings : AppCompatActivity() {
+class GameD1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_game_d1)
 
-        val buttonBack2= findViewById<ImageButton>(R.id.backButton2)
-        buttonBack2.setOnClickListener {
-            val intent = Intent( this , MainActivity::class.java)
+        val buttonBack7= findViewById<ImageButton>(R.id.backButton7)
+        buttonBack7.setOnClickListener {
+            val intent = Intent( this , SpeedMode::class.java)
             startActivity(intent);
         }
     }

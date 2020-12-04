@@ -19,4 +19,6 @@
     <string name="sample_question">Sample Question</string>
     <string name="answer2">Answer2</string>
     <string name="testtemplate">TestTemplate</string>
+    <string name="signbackground">TODO</string>
+    <string name="backbutton">TODO</string>
 </resources>

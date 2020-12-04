@@ -3,15 +3,17 @@ package com.example.finalproject
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 
-class Settings : AppCompatActivity() {
+class Template2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_template2)
 
-        val buttonBack2= findViewById<ImageButton>(R.id.backButton2)
-        buttonBack2.setOnClickListener {
+
+        val buttonBack= findViewById<ImageButton>(R.id.backButton)
+        buttonBack.setOnClickListener {
             val intent = Intent( this , MainActivity::class.java)
             startActivity(intent);
         }
