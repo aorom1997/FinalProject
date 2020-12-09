@@ -15,7 +15,6 @@
         <activity android:name=".GameS1" />
         <activity android:name=".GameA1" />
         <activity android:name=".Template2" />
-        <activity android:name=".template2" />
         <activity android:name=".Template1" />
         <activity android:name=".Settings" />
         <activity android:name=".TowerPlaceholder" />
