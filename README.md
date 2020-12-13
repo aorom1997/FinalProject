@@ -1,2 +1,6 @@
 # FinalProject
 AppProject
+1)
+  I look to stop the repetitiveness of math. I made an app that helps young children learn math in a fun interactive way. The name of the app is Math Tower. They will be solving math problems that will be disguised as different puzzles. These puzzles will consist of switches, buttons, sliders and other types of interactive methods to keep the student active. After solving each problem they will continue to climb the tower until they reach the top. The app will be simple yet entertaining to keep the child engaged. This app will be set up to be on a smart phone or tablet. Many of my young family members and students I teach have their own tablet that they were given to play with. The arithmetic level of math is very straight forward. I wanted to give it a fun and different type of medium for a child to learn. I was only able to use buttons for the apps functionality. Once I am able to learn to manipulate sliders, and dragging it would be added to the app.
+  The app should be able to be opened quite easily and be able to use right at start up.
+  The software should be self explenatory. As it was build for children I made sure to simplify it as much as possible. At the start of the app some buttons should be locked until the student unlocks them. However for the app I made each stage availiable in speed mode.
