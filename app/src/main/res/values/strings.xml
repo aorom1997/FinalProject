@@ -21,4 +21,24 @@
     <string name="testtemplate">TestTemplate</string>
     <string name="signbackground">TODO</string>
     <string name="backbutton">TODO</string>
+    <string name="aProblem">3 + 3 = ?</string>
+    <string name="buttonNum3">TODO</string>
+    <string name="buttonNum6">TODO</string>
+    <string name="buttonNum9">TODO</string>
+    <string name="dProblem1">15 / 5 = ?</string>
+    <string name="buttonNum5">TODO</string>
+    <string name="buttonNum7">TODO</string>
+    <string name="_11_9">11 - 9 = ?</string>
+    <string name="_2_x_2">2 x 2 = ?</string>
+    <string name="buttonNum4">TODO</string>
+    <string name="_4_5">4 + 5 = ?</string>
+    <string name="buttonNum8">TODO</string>
+    <string name="_7_3">7 - 3 = ?</string>
+    <string name="buttonNum2">TODO</string>
+    <string name="buttonNum1">TODO</string>
+    <string name="_4_x_2">4 x 2 = ?</string>
+    <string name="_14_2">14 / 2 = ?</string>
+    <string name="_3_4">3 + 4 = ?</string>
+    <string name="_12_6">12 - 6 = ?</string>
+    <string name="_1_x_7">1 x 7 = ?</string>
 </resources>

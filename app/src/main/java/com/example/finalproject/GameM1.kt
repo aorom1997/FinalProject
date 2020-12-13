@@ -15,5 +15,11 @@ class GameM1 : AppCompatActivity() {
             val intent = Intent( this , SpeedMode::class.java)
             startActivity(intent);
         }
+
+        val imgButton15= findViewById<ImageButton>(R.id.imageButton15)
+        imgButton15.setOnClickListener {
+            val intent = Intent( this , GameM2::class.java)
+            startActivity(intent);
+        }
     }
 }

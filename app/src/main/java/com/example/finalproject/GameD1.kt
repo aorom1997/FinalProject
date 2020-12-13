@@ -10,9 +10,15 @@ class GameD1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game_d1)
 
-        val buttonBack7= findViewById<ImageButton>(R.id.backButton7)
-        buttonBack7.setOnClickListener {
+        val buttonBack13= findViewById<ImageButton>(R.id.backButton13)
+        buttonBack13.setOnClickListener {
             val intent = Intent( this , SpeedMode::class.java)
+            startActivity(intent);
+        }
+
+        val imgButton7= findViewById<ImageButton>(R.id.imageButton7)
+        imgButton7.setOnClickListener {
+            val intent = Intent( this , GameD2::class.java)
             startActivity(intent);
         }
     }

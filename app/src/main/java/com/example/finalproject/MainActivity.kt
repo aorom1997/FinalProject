@@ -24,22 +24,9 @@ class MainActivity : AppCompatActivity() {
 
         val buttonGame= findViewById<Button>(R.id.Tower)
         buttonGame.setOnClickListener {
-            val intent = Intent( this , TowerPlaceholder::class.java)
+            val intent = Intent( this , GameMath1::class.java)
             startActivity(intent);
         }
-
-        val buttonTemplate= findViewById<Button>(R.id.Test1)
-        buttonTemplate.setOnClickListener {
-            val intent = Intent( this , Template1::class.java)
-            startActivity(intent);
-        }
-
-        val buttonTemplate2= findViewById<Button>(R.id.Test2)
-        buttonTemplate2.setOnClickListener {
-            val intent = Intent( this , Template2::class.java)
-            startActivity(intent);
-        }
-
 
     }
 }

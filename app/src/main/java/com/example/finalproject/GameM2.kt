@@ -5,24 +5,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
-class GameA1 : AppCompatActivity() {
+class GameM2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_game_a1)
+        setContentView(R.layout.activity_game_m2)
 
-
-        val buttonBack4= findViewById<ImageButton>(R.id.backButton4)
-        buttonBack4.setOnClickListener {
+        val buttonBack12= findViewById<ImageButton>(R.id.backButton12)
+        buttonBack12.setOnClickListener {
             val intent = Intent( this , SpeedMode::class.java)
             startActivity(intent);
         }
 
-        val imgButton2= findViewById<ImageButton>(R.id.imageButton2)
-        imgButton2.setOnClickListener {
-            val intent = Intent( this , GameA2::class.java)
+        val imgButton18= findViewById<ImageButton>(R.id.imageButton18)
+        imgButton18.setOnClickListener {
+            val intent = Intent( this , GameM1::class.java)
             startActivity(intent);
         }
-
-
     }
 }

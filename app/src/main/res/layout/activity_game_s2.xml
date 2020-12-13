@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameS1">
+    tools:context=".GameS2">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imageView19"
         android:layout_width="1346dp"
         android:layout_height="1177dp"
         android:contentDescription="@string/image"
@@ -18,21 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/image0__2_" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginBottom="184dp"
-        android:backgroundTint="#00FFFFFF"
-        android:contentDescription="@string/buttonNum7"
-        android:tint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/num7" />
-
     <ImageView
-        android:id="@+id/sign4"
+        android:id="@+id/sign11"
         android:layout_width="404dp"
         android:layout_height="622dp"
         android:layout_marginBottom="116dp"
@@ -44,7 +31,7 @@
         app:srcCompat="@drawable/sign" />
 
     <ImageButton
-        android:id="@+id/backButton5"
+        android:id="@+id/backButton11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -56,11 +43,11 @@
         app:srcCompat="@drawable/backbutton" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
-        android:text="@string/_11_9"
+        android:text="@string/_7_3"
         android:textColor="#000000"
         android:textSize="72sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,27 +56,36 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/imageButton9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="152dp"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/buttonNum5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/num2"
-        android:contentDescription="@string/buttonNum2" />
+        app:srcCompat="@drawable/num5" />
 
-    <ImageButton
-        android:id="@+id/imageButton13"
+    <ImageView
+        android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="280dp"
-        android:layout_marginBottom="72dp"
-        android:backgroundTint="#00FFFFFF"
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="164dp"
+        android:contentDescription="@string/buttonNum4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/num1"
-        android:contentDescription="@string/buttonNum1" />
+        app:srcCompat="@drawable/num4" />
 
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/buttonNum2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/num2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GameMath1"></activity>
+        <activity android:name=".GameMath3"></activity>
+        <activity android:name=".GameMath2" />
+        <activity android:name=".GameD2" />
+        <activity android:name=".GameM2" />
+        <activity android:name=".GameS2" />
+        <activity android:name=".GameA2" />
+        <activity android:name=".GameMath1" />
         <activity android:name=".GameD1" />
         <activity android:name=".GameM1" />
         <activity android:name=".GameS1" />
